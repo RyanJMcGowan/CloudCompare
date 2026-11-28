@@ -3,7 +3,6 @@ set(header_list
    ${header_list}
    ${CMAKE_CURRENT_SOURCE_DIR}/ccDBRoot.h
    ${CMAKE_CURRENT_SOURCE_DIR}/ccPropertiesTreeDelegate.h
-   ${CMAKE_CURRENT_SOURCE_DIR}/ccXRayExposureResetButton.h
    ${CMAKE_CURRENT_SOURCE_DIR}/matrixDisplayDlg.h
    ${CMAKE_CURRENT_SOURCE_DIR}/sfEditDlg.h
    PARENT_SCOPE

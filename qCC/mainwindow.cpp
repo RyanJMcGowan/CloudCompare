@@ -7789,6 +7789,8 @@ void MainWindow::showDisplaySettings()
 	displayOptionsDlg.exec();
 
 	disconnect(&displayOptionsDlg);
+
+	updatePropertiesView(); // some properties may have changed (e.g. label marker size, default x-ray exposure, etc.)
 }
 
 void MainWindow::doActionRenderToFile()
